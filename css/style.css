@@ -15,9 +15,14 @@
     Background-position: 
     Background-attachment: fixed
     */
-
 }
 
 body {
     margin: 0;
 }
+
+.author {
+    color: rgb(0, 162, 255)
+}
+
+   
