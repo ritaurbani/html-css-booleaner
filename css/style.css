@@ -1,11 +1,12 @@
 .logo {
-    width: 20%;
+    width: 150px;
+    margin-top: 15px;
 }
-
-.banner {    
+.banner { 
+    height: 55px;   
     background-image: url("../img/pattern.png");
     background-size: 200px 100px;
-    
+    background-color: cornflowerblue;
     /*
     Height:300px
     Color: white
@@ -15,4 +16,8 @@
     Background-attachment: fixed
     */
 
+}
+
+body {
+    margin: 0;
 }
