@@ -1,0 +1,18 @@
+.logo {
+    width: 20%;
+}
+
+.banner {    
+    background-image: url("../img/pattern.png");
+    background-size: 200px 100px;
+    
+    /*
+    Height:300px
+    Color: white
+    Background-repeat: no repeat; (uncheck if you want to repeat)
+    Background-size: contain (immagine e visible per intero)/cover(coprire tutto il container) oppure mettere pixel100px(e`assoluto, non cambia), 30% (unita relativa alla dimensione del banner, larghezza contenitore che vogliamoo coprire);
+    Background-position: 
+    Background-attachment: fixed
+    */
+
+}
