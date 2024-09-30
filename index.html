@@ -6,6 +6,35 @@
     <title>TheBooleaner</title>
     <link rel="stylesheet" href="./css/style.css"/>
 
+    <style>
+        #customers {
+          border-collapse: collapse;
+          width: 100%;
+          text-wrap:normal;
+        }
+        
+        #customers td {
+            height: 50px;
+            vertical-align: center;
+            width: 50px; 
+        }
+        
+
+         #customers tr:nth-child(even){background-color: #f7f7f7;}
+        
+        #customers tr {
+          background-color: #82d1dd;
+        }
+        
+        #customers th {
+          padding-top: 5px;
+          padding-bottom: 5px;
+          text-align: left;
+          background-color: #25a9e1;
+          color: white;
+        }
+        </style>
+
 </head>
 
 <body>
@@ -17,15 +46,15 @@
     <!--/header-->
 
     <main>
-        <!--Title-Pics-Paragr Section-->
+        <!--Title-Pics-Par-List Section-->
         <section>
-            <h1>Internet deve essere al servision del "bene pubblico": il manifesto di Tim Berners lee</h1>
+            <h1>Internet deve essere al servision del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
             <p>Scritto da <span class= "author">The Booleaner</span><br>
             il 10/10/2020</p>
             <img src="./img/tim-1.jpg" alt="pic">
             <img src="./img/tim-2.jpg" alt="pic2">
             
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut enim ad minim veniam, quis nostrud <mark>exerci tation ullamcorper laboris nisi ut aliquip ex ea commodo consequat.</mark> Facilis est ipsam ipsa nisi iure laboriosam ducimus sequi repudiandae, voluptatem, minus ipsum eius harum id totam impedit numquam aperiam, consectetur tempora.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut enim ad minim veniam, quis nostrud <mark>exerci tation ullamcorper laboris nisi ut aliquip ex ea commodo consequat.</mark> Facilis est ipsam ipsa nisi iure laboriosam ducimus sequi repudiandae, voluptatem, minus ipsum eius harum id totam impedit numquam aperiam, consectetur tempora. Facilis est ipsam ipsa nisi iure laboriosam ducimus sequi repudiandae, voluptatem, minus ipsum eius harum id totam impedit numquam aperiam, consectetur tempora</p>
 
             <ul>
                 <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. maqna aliqua erat voluptat</li>
@@ -34,14 +63,50 @@
             </ul>
 
         </section>
-        <!--Title-Pics-Paragr Section-->
+        <!--/Title-Pics-Par-List Section-->
 
         <!--table section-->
         <section>
 
+            <table id="customers">
+                <div class="content"></div>
+                <thead>
+                    <tr>
+                        <th>Lorem ipsum dolor</th>
+                        <th>Lorem ipsum dolor</th>
+                        <th>Lorem ipsum dolor</th>
+                    </tr>
+                </thead>
 
-            
+                <tbody>
+                    <tr>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste alias, quidem perferendis nostrum expedita doloremque repudiandae, distinctio iure asperiores delectus eum odit, animi quae consequatur. Nostrum incidunt neque sequi provident!</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste alias, quidem perferendis nostrum expedita doloremque repudiandae, distinctio iure asperiores delectus eum odit, animi quae consequatur. Nostrum incidunt neque sequi provident!</td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor</td>
+                        <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste alias, quidem perferendis nostrum expedita doloremque repudiandae, distinctio iure asperiores delectus eum odit, animi quae consequatur. Nostrum incidunt neque sequi provident!</td>
+                    </tr>
+                </tbody>
+            </table>
+
         </section>
+        <!--/table section-->
+
+        <!--last paragraph secion-->
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut enim ad minim veniam, quis nostrud exerci tation ullamcorper laboris nisi ut aliquip ex ea commodo consequat.Facilis est ipsam ipsa nisi iure laboriosam ducimus sequi repudiandae, voluptatem, minus ipsum eius harum id totam impedit numquam aperiam, consectetur tempora.<mark> Illum dolore eu feugiat nulla facilisi at vero eros at accumsan et iusto</mark> minus ipsum eius harum id totam impedit numquam aperiam, consectetur tempora</p>
+
+        </section>
+        <!--/last paragraph secion-->
 
     </main>
 

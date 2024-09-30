@@ -25,4 +25,7 @@ body {
     color: rgb(0, 162, 255)
 }
 
-   
+.content{
+    word-wrap:break-word; /*old browsers*/
+    overflow-wrap:break-word;
+  }   
