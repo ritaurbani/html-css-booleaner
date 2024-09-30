@@ -25,7 +25,39 @@ body {
     color: rgb(0, 162, 255)
 }
 
-.content{
-    word-wrap:break-word; /*old browsers*/
-    overflow-wrap:break-word;
-  }   
+.background {
+    /* background-color: lightpink; */
+    background-image: url(../img/cat.jpg);
+    height: 300px;
+    color: white;
+  }
+
+  .container-img {
+    /* background-color: lightpink; */
+    background-image: url(../img/monitor.jpg);
+    height: 300px;
+    width: 250px;
+    background-repeat: no-repeat;
+    color: white;
+  }    
+    
+  .inner-text {
+    
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 0.07em 0.07em 0.05em black;
+    text-align:left;
+    
+  }
+
+  .container-img2 {
+    margin-top: -80px;
+    /* background-color: lightpink; */
+    background-image: url(../img/graph.jpg);
+    height: 300px;
+    width: 250px;
+    background-repeat: no-repeat;
+    color: white;
+    
+  }    
